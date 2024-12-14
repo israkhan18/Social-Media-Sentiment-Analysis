@@ -4,11 +4,11 @@ import pandas as pd
 from textblob import TextBlob
 
 # Twitter API credentials
-api_key = "pQuUHOLEvtqwwBygkS0gRTOHR"
-api_key_secret = "6ixfC9GVAg84pSsrppGqzhtTdZXX8pFiiAT4NJH4KDr0vKtN3Y"
-access_token = "1867975772243435520-jq4OIMzEoDW6iEvFIXXZHyj9SXWtp7"
-access_token_secret = "CPrc3HpEcPAhFQR3d9milumjlDcNoTvTljatIRWo2Rlly"
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAP4vxgEAAAAAHUIX0FVaPLrWFBux4W7XR7bk%2FGg%3DOosTZt6KxZKA0BeUHKNGBR9eqb3TgQqKpOvaNICBGlx1Fnuv28"
+api_key = "your_api_key"
+api_key_secret = "your_key_secret"
+access_token = "your_acess_token"
+access_token_secret = "your_acess_token_secret"
+bearer_token = "your_bearer_token"
 
 # Authenticate using Bearer Token (API v2)
 client = tweepy.Client(bearer_token=bearer_token)
